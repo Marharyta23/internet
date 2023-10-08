@@ -3,112 +3,235 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@400;500&family=Reem+Kufi&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Internet</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="">World.Net</a>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Reviews</a></li>
-                <li><a href="./tarifs.html">Tarrifs</a></li>
-                <li><a href="">Contacts</a></li>
-            </ul>
-        </nav>
-        <a href="tel:88006549732">8 (800) 654-97-32</a>
+    <header class="header">
+        <div class="container header-container">
+            <nav class="header-logo-navigation">
+                <a href="" class="logo">World.Net</a>
+                <ul class="header-ul">
+                    <li class="header-list home">
+                        <a href="" class="header-navigation">Home</a>
+                    </li>
+                    <li class="header-list">
+                        <a href="" class="header-navigation">About</a>
+                    </li>
+                    <li class="header-list">
+                        <a href="" class="header-navigation">Reviews</a>
+                    </li>
+                    <li class="header-list">
+                        <a href="./tarifs.html" class="header-navigation">Tarrifs</a>
+                    </li>
+                    <li class="header-list">
+                        <a href="" class="header-navigation contact">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="tel:88006549732" class="header-contact">8 (800) 654-97-32</a>
+        </div>
     </header>
     <main>
-        <section>
-            <h1>Reliable Home Internet and TV Provider</h1>
-            <p>We work only in small towns. Thanks to this, 
-                we maintain quality and we will not spray</p>
-            <button type="button">Submit your application</button>
-            <img src="./images/bro.png" alt="Internet Day" width="571" height="560">
+        <section class="section-one">
+            <div class="container section-one-container">
+                <div class="text-container">
+                    <h1 class="main-title">
+                        Reliable Home Internet and TV Provider
+                    </h1>
+                    <p class="section-one-text">
+                        We work only in small towns. Thanks to this, 
+                        we maintain quality and we will not spray
+                    </p>
+                    <button type="button" class="button">
+                        Submit your application
+                    </button>
+                </div>
+                <img src="./images/bro.png" 
+                alt="Internet Day" 
+                width="571" 
+                height="560"
+                class="image">
+            </div>
         </section>
-        <section>
-            <h2>Why choose our company</h2>
-            <ul>
-                <li>
-                    <img src="./images/img-1.png" alt="Speed" width="72" height="70">
-                    <h3>Speed</h3>
-                    <p>Thanks to GPON and a backup line, we guarantee the speed right under the contract</p>
-                </li>
-                <li>
-                    <img src="./images/img-2.png" alt="Installation" width="72" height="70">
-                    <h3>Installation</h3>
-                    <p>We carefully mount the cable, without damaging the interior of your apartment or house</p>
-                </li>
-                <li>
-                    <img src="./images/img-3.png" alt="Support" width="72" height="70">
-                    <h3>Support</h3>
-                    <p>Round-the-clock help in the application or via the hotline, even on holidays you can get an answer to your question</p>
-                </li>
-            </ul>
+        <section class="section-two">
+            <div class="container">
+                <h2 class="section-two-title">Why choose our company</h2>
+                <ul class="section-two-list">
+                    <li class="section-two-item">
+                        <img src="./images/img-1.png" 
+                        alt="Speed" 
+                        width="72" 
+                        height="70"
+                        class="section-two-image">
+                        <div class="section-two-text">
+                            <h3 class="section-two-subtitle">Speed</h3>
+                            <p class="section-two-text">Thanks to GPON and a backup line, we guarantee the speed right under the contract</p>
+                        </div>
+                    </li>
+                    <li class="section-two-item">
+                        <img src="./images/img-2.png" 
+                        alt="Installation" 
+                        width="72" 
+                        height="70"
+                        class="section-two-image">
+                        <div class="section-two-text">
+                            <h3 class="section-two-subtitle">Installation</h3>
+                            <p class="section-two-text">We carefully mount the cable, without damaging the interior of your apartment or house</p>
+                        </div>
+                    </li>
+                    <li class="section-two-item">
+                        <img src="./images/img-3.png" 
+                        alt="Support" 
+                        width="72" 
+                        height="70"
+                        class="section-two-image">
+                        <div class="section-two-text">
+                            <h3 class="section-two-subtitle">Support</h3>
+                            <p class="section-two-text">Round-the-clock help in the application or via the hotline, even on holidays you can get an answer to your question</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </section>
-        <section>
-            <img src="./images/sis.png" alt="Sis works" width="544" height="525">
-            <h2>We will connect today 
-                or next day</h2>
-            <p>Our coverage area is much smaller than that of large providers. This allows us to work quickly: 64% of subscribers receive Internet and TV immediately on the day of application. Even if you need to connect a private house, not an apartment.</p>
-            <ul>
-                <li>
-                    <span>14 536</span>
-                    <p>Active subscribers  throughout the region</p>
-                </li>
-                <li>
-                    <span>4,91</span>
-                    <p>Average quality score  for home Internet and TV</p>
-                </li>
-            </ul>
+        <section class="section-three">
+            <div class="container section-three-container">
+                <img src="./images/sis.png" 
+                alt="Sis works" 
+                width="544" 
+                height="525"
+                class="section-three-image">
+                <div class="text">
+                    <h2 class="section-three-title">We will connect today 
+                        or next day</h2>
+                    <p class="section-three-text">Our coverage area is much smaller than that of large providers. This allows us to work quickly: 64% of subscribers receive Internet and TV immediately on the day of application. Even if you need to connect a private house, not an apartment.</p>
+                    <ul class="section-three-list">
+                        <li class="section-three-item">
+                           <div class="three-container">
+                                <span class="section-three-span">14 536</span>
+                                <p class="section-three-list-text">Active subscribers throughout the region</p>
+                           </div>
+                        </li>
+                        <li class="section-three-item">
+                            <div class="three-container">
+                                <span class="section-three-span">4,91</span>
+                                <p class="section-three-list-text">Average quality score for home Internet and TV</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </section>
-        <section>
-            <h2>Feedbacks from our clients</h2>
-            <h3>«We have been using  World.net for seven years»</h3>
-            <p>«We connected it for a rented apartment, and now we use it in ours. For 7 years, only one call was made to support - to change the installation address. It can be called the quality standard for modern Internet providers. The level of service is excellent. No connection breaks, no modem connection, the Internet, in fact, over a dedicated line. Bonus program for regular subscribers up to 20% discount on the tariff plan»</p>
-            <a href="">Read full review</a>
-            <img src="./images/Group-28.png" alt="Douglas Hancock" width="250" height="250">
-            <h3>Douglas Hancock</h3>
-            <p>Chicago</p>
+        <section class="section-four">
+            <div class="container">
+                <h2 class="section-four-title">Feedbacks from our clients</h2>
+                <div class="section-four-box">
+                    <div class="section-four-text-box">
+                        <svg class="qoute-icon" width="40" height="40">
+                            <use href="./images/icons.svg#icon-untitled"></use>
+                        </svg>
+                        <h3 class="section-four-subtitle">«We have been using World.net for seven years»</h3>
+                        <p class="section-four-text">«We connected it for a rented apartment, and now we use it in ours. For 7 years, only one call was made to support - to change the installation address. It can be called the quality standard for modern Internet providers. The level of service is excellent. No connection breaks, no modem connection, the Internet, in fact, over a dedicated line. Bonus program for regular subscribers up to 20% discount on the tariff plan»</p>
+                        <a href="" class="section-four-link">Read full review</a>
+                    </div>
+                    <div class="douglas-section">
+                        <img src="./images/Group-28.png" 
+                        alt="Douglas Hancock" 
+                        width="250" 
+                        height="250"
+                        class="section-four-image">
+                        <h3 class="section-four-subtitle-douglas">Douglas Hancock</h3>
+                        <p class="section-four-text-chicago">Chicago</p>
+                    </div>
+                </div>
+            </div>
         </section>
-        <section>
-            <h2>Tariff offers</h2>
-            <ul>
-                <li>
-                    <img src="images/online-connection.png" alt="Standart" width="251" height="228">
-                    <h3>Standart</h3>
-                    <p>$20/month</p>
-                    <p>The connection is always stable</p>
-                    <p>Speed of 100 Mbit / s</p>
-                    <a href="">Make a request</a>
-                </li>
-                <li>
-                    <img src="./images/online-learning.png" alt="Smart" width="251" height="228">
-                    <h3>Smart</h3>
-                    <p>$30/month</p>
-                    <p>Service without weekends</p>
-                    <p>Speed of 300 Mbit / s</p>
-                    <a href="">Make a request</a>
-                </li>
-                <li>
-                    <img src="./images/online-dating.png" alt="Prime" width="251" height="228">
-                    <h3>Prime</h3>
-                    <p>$40/month</p>
-                    <p>New modern fiber optic network</p>
-                    <p>New modern fiber optic network</p>
-                    <a href="">Make a request</a>
-                </li>
-            </ul>
+        <section class="section-five">
+           <div class="container">
+                <h2 class="section-five-title">Tariff offers</h2>
+                <ul class="section-five-list">
+                    <li class="section-five-item">
+                        <img src="images/online-connection.png" alt="Standart" 
+                        width="251"
+                        height="228"
+                        class="section-five-image">
+                       <div class="section-five-text-box">
+                            <h3 class="section-five-subtitle">Standart</h3>
+                            <p  class="section-five-text-tarif">$20/month</p>
+                       </div>
+                        <p class="section-five-text-desc">The connection is always stable</p>
+                        <p class="section-five-text-speed">Speed of 100 Mbit / s</p>
+                        <a href="" class="section-five-link">Make a request</a>
+                    </li>
+                    <li class="section-five-item">
+                        <img src="./images/online-learning.png" alt="Smart" 
+                        width="251" 
+                        height="228"
+                        class="section-five-image">
+                       <div class="section-five-text-box">
+                            <h3 class="section-five-subtitle">Smart</h3>
+                            <p class="section-five-text-tarif">$30/month</p>
+                       </div>
+                        <p class="section-five-text-desc">Service without weekends</p>
+                        <p class="section-five-text-speed">Speed of 300 Mbit / s</p>
+                        <a href="" class="section-five-link">Make a request</a>
+                    </li>
+                    <li class="section-five-item">
+                        <img src="./images/online-dating.png" 
+                        alt="Prime" 
+                        width="251" 
+                        height="228"
+                        class="section-five-image">
+                        <div class="section-five-text-box">
+                            <h3 class="section-five-subtitle">Prime</h3>
+                            <p class="section-five-text-tarif">$40/month</p>
+                        </div>
+                        <p class="section-five-text-desc">New modern fiber optic network</p>
+                        <p class="section-five-text-speed">New modern fiber optic network</p>
+                        <a href="" class="section-five-link">Make a request</a>
+                    </li>
+                </ul>
+           </div>
         </section>
-        <section>
-            <h2>Leave a request and our manager will contact you shortly</h2>
-            <p>You will have the opportunity to discuss details and ask clarifying questions</p>
+        <section class="section-six">
+            <div class="container">
+                <h2 class="section-six-title">Leave a request and our manager will contact you shortly</h2>
+                <p class="section-six-text">You will have the opportunity to discuss details and ask clarifying questions</p>
+            </div>
         </section>
     </main>
-    <footer>
-        <a href="">World.Net</a>
-        <a href="tel:88006549732">8 (800) 654-97-32</a>
+    <footer class="footer">
+       <div class="container footer-container">
+            <a href="" class="footer-logo">World.Net</a>
+            <ul class="soc-list">
+                <li class="soc-item">
+                    <a href="" class="soc-link">
+                        <svg class="soc-icons" width="40" height="40">
+                            <use href="./images/symbol-defs.svg#icon-instagram-2"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="soc-item">
+                   <a href="" class="soc-link">
+                        <svg class="soc-icons" width="40" height="40">
+                            <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                        </svg>
+                   </a>
+                </li>
+                <li class="soc-item">
+                   <a href="" class="soc-link">
+                        <svg class="soc-icons" width="40" height="40">
+                            <use href="./images/symbol-defs.svg#icon-whatsapp"></use>
+                        </svg>
+                   </a>
+                </li>
+            </ul>
+            <a href="tel:88006549732" class="footer-contact">8 (800) 654-97-32</a>
+       </div>
     </footer>
 </body>
 </html>
