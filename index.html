@@ -208,8 +208,12 @@
                 </form>
                 <form class="checkbox-form" name="agreiment-policy">
                     <label class="label">
-                    <input class="checkbox" type="checkbox" name="policy">
-                   By clicking on the button, you agree to the <span class="span"><a href="" class="terms-link">terms of processing personal data</a></span>
+                    <input class="checkbox visually-hidden" type="checkbox" name="policy">
+                    <span class="span">
+                        <svg width="7" height="5">
+                            <use href="./images/symbol-defs.svg#icon-Vector"></use>
+                        </svg>
+                    </span>By clicking on the button, you agree to the <a href="" class="terms-link">terms of processing personal data</a>
                    </label>
                 </form>
             </div>
@@ -244,5 +248,18 @@
             <a href="tel:88006549732" class="footer-contact">8 (800) 654-97-32</a>
        </div>
     </footer>
+    <div class="backdrop">
+        <div class="modal">
+            <div class="modal-line"><p class="modal-text">Contact us</p></div>
+            <p class="modal-title">Contact <span class="modal-span">Us & We Can Work Together</span></p>
+            <p class="modal-p">Lorem ipsum dolor sit amet consectetur. Adipiscing nisl id at arcu enim id gravida pulvinar. Tristique consectetur mi curabitur congue enim dignissim</p>
+            <form class="modal-form">
+                <input type="text" name="user-name" placeholder="Mike" class="input">
+                <input type="email" name="user-email" placeholder="mail@mail.com" class="input">
+                <textarea name="user-message" placeholder="Your message" class="textarea"></textarea>
+                <button type="submit" class="modal-button">Submit Message</button>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
